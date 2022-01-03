@@ -1,5 +1,5 @@
 {
-  "name"       : "joao/desafio-compart",
+  "name"       : "joaovdiasb/desafio-compart",
   "description": "Desafio compart",
   "license"    : "MIT",
   "autoload"   : {
@@ -17,5 +17,7 @@
       "email": "j.v_dias@hotmail.com"
     }
   ],
-  "require"    : {}
+  "require"    : {
+    "php": "^7.4"
+  }
 }
