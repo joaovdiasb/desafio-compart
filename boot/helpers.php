@@ -38,7 +38,7 @@ function root(): string
 function view(string $path, array $params = [], string $extension = '.php'): void
 {
     extract($params);
-    include(root() . '/views/' . $path . $extension);
+    include(root() . '/resources/views/' . $path . $extension);
 }
 
 /**
