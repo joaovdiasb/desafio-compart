@@ -1,0 +1,21 @@
+{
+  "name"       : "joao/desafio-compart",
+  "description": "Desafio compart",
+  "license"    : "MIT",
+  "autoload"   : {
+    "psr-4": {
+      "App\\": "src/"
+    },
+    "files": [
+      "boot/config.php",
+      "boot/helpers.php"
+    ]
+  },
+  "authors"    : [
+    {
+      "name" : "João Victor Dias Bittencourt",
+      "email": "j.v_dias@hotmail.com"
+    }
+  ],
+  "require"    : {}
+}
